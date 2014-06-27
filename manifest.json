@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Hack-a-Tron 5000",
+  "description": "This extension demonstrates the functionality of the hack-a-tron 5000, with kittens.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["contextMenus", "tabs", "bookmarks"],
+  "background": {
+    "scripts": ["popup.js"]
+  }
+}
